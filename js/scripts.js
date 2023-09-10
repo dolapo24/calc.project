@@ -13,11 +13,11 @@ $(document).ready(function() {
            if (operator === "+"){
               result = num1 + num2            
            }else if (operator === "-"){
-              result = num1 + num2
+              result = num1 - num2
            }else if (operator === "*") {
-              result = num1 + num2
+              result = num1 * num2
            }else if (operator === "/") {
-              result = num1 + num2
+              result = num1 / num2
            }
 
            $("#result").text(result);
